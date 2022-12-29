@@ -2,7 +2,7 @@ const { CloudSearchDomain } = require('aws-sdk')
 const config = require('./config')
 
 function createClient({ endpoint }) {
-  return new CloudSearchDomain({
+  const client = new CloudSearchDomain({
     region: config.region,
     credentials: {
       accessKeyId: config.credentials.accessKeyId,
@@ -10,8 +10,15 @@ function createClient({ endpoint }) {
     },
     endpoint
   })
+  client.search()
+  return client
 }
 
+/**
+ * 
+ * @param {{client: CloudSearchDomain, params: CloudSearchDomain.SearchRequest}} params 
+ * @returns 
+ */
 async function search({ client, params }) {
   const result = await client.search(params).promise()
   // console.log(JSON.stringify(result.hits, null, 4))
