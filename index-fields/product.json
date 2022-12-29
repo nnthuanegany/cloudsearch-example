@@ -153,7 +153,36 @@
   },
   {
     "IndexFieldName": "weight_value",
-    "IndexFieldType": "double"
+    "IndexFieldType": "double",
+    "DoubleOptions": {
+      "DefaultValue": 0,
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true,
+      "SortEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "min_price",
+    "IndexFieldType": "double",
+    "DoubleOptions": {
+      "DefaultValue": 0,
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true,
+      "SortEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "max_price",
+    "IndexFieldType": "double",
+    "DoubleOptions": {
+      "DefaultValue": 0,
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true,
+      "SortEnabled": true
+    }
   },
   {
     "IndexFieldName": "variant_id",
