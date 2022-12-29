@@ -119,6 +119,9 @@ async function createProductDocumentsFromHaravanProducts({ collectionUrls, siteI
         variant_weight_unit = variant_weight_unit.filter(u => !isEmptyString(u))
         variant_weight_value = [...new Set(variant_weight_value)]
         variant_pricing_price_gross_amount = [...new Set(variant_pricing_price_gross_amount)]
+        variant_pricing_price_gross_amount = variant_pricing_price_gross_amount.sort((f, s) => f - s)
+        let min_price = variant_pricing_price_gross_amount[0]
+        let max_price = variant_pricing_price_gross_amount[variant_pricing_price_gross_amount.length - 1]
 
         const document = {
           type: "add",
@@ -142,6 +145,8 @@ async function createProductDocumentsFromHaravanProducts({ collectionUrls, siteI
             options_values,
             weight_unit: "",
             weight_value: 0,
+            min_price,
+            max_price,
             variant_id: hrvProduct.variants.map(v => v.id.toString()),
             variant_name: hrvProduct.variants.map(v => v.title).filter(v => v !== undefined && v !== null),
             variant_sku: hrvProduct.variants.map(v => v.sku).filter(v => v !== undefined && v !== null),
