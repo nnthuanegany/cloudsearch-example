@@ -1,7 +1,7 @@
 const axios = require('axios')
 const path = require('path')
 const fs = require('fs')
-const { generateId } = require('./util')
+const { generateId, isEmptyString } = require('./util')
 
 /**
  * 
@@ -80,12 +80,12 @@ async function createProductDocumentsFromHaravanProducts({ collectionUrls, siteI
         const document = documents.find(d => d.sources.includes(hrvProduct.id.toString()))
 
         if (document) {
-          document.collection_id.push(hrvCollection.id)
-          document.collection_name.push(hrvCollection.title)
-          document.collection_seo_title.push(hrvCollection.title)
-          document.collection_seo_description.push(hrvCollection.description)
-          document.collection_description.push(hrvCollection.description)
-          document.collection_slug.push(hrvCollection.handle)
+          document.collection_id.push(hrvCollection.id.toString())
+          if (!isEmptyString(hrvCollection.title)) document.collection_name.push(hrvCollection.title)
+          if (!isEmptyString(hrvCollection.title)) document.collection_seo_title.push(hrvCollection.title)
+          if (!isEmptyString(hrvCollection.description)) document.collection_seo_description.push(hrvCollection.description)
+          if (!isEmptyString(hrvCollection.description)) document.collection_description.push(hrvCollection.description)
+          if (!isEmptyString(hrvCollection.handle)) document.collection_slug.push(hrvCollection.handle)
         }
 
       }
@@ -107,15 +107,16 @@ async function createProductDocumentsFromHaravanProducts({ collectionUrls, siteI
 
         for (const variant of hrvProduct.variants) {
 
-          if ('weight_unit' in variant) variant_weight_unit.push(variant.weight_unit)
+          if ('weight_unit' in variant && !isEmptyString(variant.weight_unit)) variant_weight_unit.push(variant.weight_unit)
 
-          if ('weight' in variant) variant_weight_value.push(variant.weight)
+          if ('weight' in variant && typeof variant.weight === 'number') variant_weight_value.push(variant.weight)
 
           variant_pricing_price_gross_amount.push(Number.parseFloat(variant.price))
 
         }
 
         variant_weight_unit = [...new Set(variant_weight_unit)]
+        variant_weight_unit = variant_weight_unit.filter(u => !isEmptyString(u))
         variant_weight_value = [...new Set(variant_weight_value)]
         variant_pricing_price_gross_amount = [...new Set(variant_pricing_price_gross_amount)]
 
@@ -161,11 +162,11 @@ async function createProductDocumentsFromHaravanProducts({ collectionUrls, siteI
             category_description: '',
             category_slug: '',
             collection_id: [hrvCollection.id.toString()],
-            collection_name: [hrvCollection.title],
-            collection_seo_title: [hrvCollection.title],
-            collection_seo_description: [hrvCollection.description],
-            collection_description: [hrvCollection.description],
-            collection_slug: [hrvCollection.handle],
+            collection_name: isEmptyString(hrvCollection.title) ? [] : [hrvCollection.title],
+            collection_seo_title: isEmptyString(hrvCollection.title) ? [] : [hrvCollection.title],
+            collection_seo_description: isEmptyString(hrvCollection.description) ? [] : [hrvCollection.description],
+            collection_description: isEmptyString(hrvCollection.description) ? [] : [hrvCollection.description],
+            collection_slug: isEmptyString(hrvCollection.handle) ? [] : [hrvCollection.handle],
             sources: [hrvProduct.id.toString()],
             site_id: siteId
           }

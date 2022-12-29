@@ -11,8 +11,14 @@ const ObjectCodes = {
 
 const awaitWithPromise = (timeout) => new Promise((resolve) => setTimeout(() => resolve(true), timeout));
 
+const isNullOrUndefined = (anything) => anything === null || anything === undefined
+
+const isEmptyString = (anything) => isNullOrUndefined(anything) || anything.trim() === ''
+
 module.exports = {
   generateId,
   ObjectCodes,
-  awaitWithPromise
+  awaitWithPromise,
+  isNullOrUndefined,
+  isEmptyString
 }
