@@ -1,0 +1,434 @@
+Create domain search for store
+Create collection domain search
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-clt",
+        "DomainName": "egastyle-clt",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-clt",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {},
+        "SearchService": {},
+        "RequiresIndexDocuments": false,
+        "Processing": true,
+        "SearchPartitionCount": 0,
+        "SearchInstanceCount": 0,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Next check after 5 minutes
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-clt",
+        "DomainName": "egastyle-clt",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-clt",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {},
+        "SearchService": {},
+        "RequiresIndexDocuments": false,
+        "Processing": true,
+        "SearchPartitionCount": 0,
+        "SearchInstanceCount": 0,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Next check after 5 minutes
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-clt",
+        "DomainName": "egastyle-clt",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-clt",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {
+            "Endpoint": "doc-egastyle-clt-hlokkzsvdzxvohnw2xp2v5mqga.us-east-1.cloudsearch.amazonaws.com"
+        },
+        "SearchService": {
+            "Endpoint": "search-egastyle-clt-hlokkzsvdzxvohnw2xp2v5mqga.us-east-1.cloudsearch.amazonaws.com"
+        },
+        "RequiresIndexDocuments": false,
+        "Processing": false,
+        "SearchInstanceType": "search.small",
+        "SearchPartitionCount": 1,
+        "SearchInstanceCount": 1,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Define index fields for collections
+[1/13] Define index field [ { IndexFieldName: 'id', IndexFieldType: 'text' } ]
+==> SUCCESS
+[2/13] Define index field [ { IndexFieldName: 'seo_title', IndexFieldType: 'text' } ]
+==> SUCCESS
+[3/13] Define index field [ { IndexFieldName: 'seo_description', IndexFieldType: 'text' } ]
+==> SUCCESS
+[4/13] Define index field [ { IndexFieldName: 'name', IndexFieldType: 'text' } ]
+==> SUCCESS
+[5/13] Define index field [ { IndexFieldName: 'slug', IndexFieldType: 'text' } ]
+==> SUCCESS
+[6/13] Define index field [ { IndexFieldName: 'description', IndexFieldType: 'text' } ]
+==> SUCCESS
+[7/13] Define index field [ { IndexFieldName: 'description_html', IndexFieldType: 'text' } ]
+==> SUCCESS
+[8/13] Define index field [ { IndexFieldName: 'description_json', IndexFieldType: 'text' } ]
+==> SUCCESS
+[9/13] Define index field [ { IndexFieldName: 'channel', IndexFieldType: 'text' } ]
+==> SUCCESS
+[10/13] Define index field [ { IndexFieldName: 'sources', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[11/13] Define index field [ { IndexFieldName: 'site_id', IndexFieldType: 'text' } ]
+==> SUCCESS
+[12/13] Define index field [ { IndexFieldName: 'products_count', IndexFieldType: 'text' } ]
+==> SUCCESS
+[13/13] Define index field [ { IndexFieldName: 'updated_at', IndexFieldType: 'date' } ]
+==> SUCCESS
+success [
+  { IndexFieldName: 'id', IndexFieldType: 'text' },
+  { IndexFieldName: 'seo_title', IndexFieldType: 'text' },
+  { IndexFieldName: 'seo_description', IndexFieldType: 'text' },
+  { IndexFieldName: 'name', IndexFieldType: 'text' },
+  { IndexFieldName: 'slug', IndexFieldType: 'text' },
+  { IndexFieldName: 'description', IndexFieldType: 'text' },
+  { IndexFieldName: 'description_html', IndexFieldType: 'text' },
+  { IndexFieldName: 'description_json', IndexFieldType: 'text' },
+  { IndexFieldName: 'channel', IndexFieldType: 'text' },
+  { IndexFieldName: 'sources', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'site_id', IndexFieldType: 'text' },
+  { IndexFieldName: 'products_count', IndexFieldType: 'text' },
+  { IndexFieldName: 'updated_at', IndexFieldType: 'date' }
+]
+failure []
+error []
+==> COMPLETED
+
+Create product domain search
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-prd",
+        "DomainName": "egastyle-prd",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-prd",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {},
+        "SearchService": {},
+        "RequiresIndexDocuments": false,
+        "Processing": true,
+        "SearchPartitionCount": 0,
+        "SearchInstanceCount": 0,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Next check after 5 minutes
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-prd",
+        "DomainName": "egastyle-prd",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-prd",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {},
+        "SearchService": {},
+        "RequiresIndexDocuments": false,
+        "Processing": true,
+        "SearchPartitionCount": 0,
+        "SearchInstanceCount": 0,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Next check after 5 minutes
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-prd",
+        "DomainName": "egastyle-prd",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-prd",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {},
+        "SearchService": {},
+        "RequiresIndexDocuments": false,
+        "Processing": false,
+        "SearchInstanceType": "search.small",
+        "SearchPartitionCount": 1,
+        "SearchInstanceCount": 1,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Next check after 5 minutes
+Check the availability of Search Service Endpoint...
+[
+    {
+        "DomainId": "843032835097/egastyle-prd",
+        "DomainName": "egastyle-prd",
+        "ARN": "arn:aws:cloudsearch:us-east-1:843032835097:domain/egastyle-prd",
+        "Created": true,
+        "Deleted": false,
+        "DocService": {
+            "Endpoint": "doc-egastyle-prd-kd7pqufzejkdhn2fmiivgzv5de.us-east-1.cloudsearch.amazonaws.com"
+        },
+        "SearchService": {
+            "Endpoint": "search-egastyle-prd-kd7pqufzejkdhn2fmiivgzv5de.us-east-1.cloudsearch.amazonaws.com"
+        },
+        "RequiresIndexDocuments": false,
+        "Processing": false,
+        "SearchInstanceType": "search.small",
+        "SearchPartitionCount": 1,
+        "SearchInstanceCount": 1,
+        "Limits": {
+            "MaximumReplicationCount": 5,
+            "MaximumPartitionCount": 10
+        }
+    }
+]
+Define index fields for products
+[1/44] Define index field [ { IndexFieldName: 'id', IndexFieldType: 'text' } ]
+==> SUCCESS
+[2/44] Define index field [ { IndexFieldName: 'name', IndexFieldType: 'text' } ]
+==> SUCCESS
+[3/44] Define index field [ { IndexFieldName: 'slug', IndexFieldType: 'text' } ]
+==> SUCCESS
+[4/44] Define index field [ { IndexFieldName: 'channel', IndexFieldType: 'text' } ]
+==> SUCCESS
+[5/44] Define index field [ { IndexFieldName: 'description', IndexFieldType: 'text' } ]
+==> SUCCESS
+[6/44] Define index field [ { IndexFieldName: 'description_html', IndexFieldType: 'text' } ]
+==> SUCCESS
+[7/44] Define index field [ { IndexFieldName: 'description_json', IndexFieldType: 'text' } ]
+==> SUCCESS
+[8/44] Define index field [ { IndexFieldName: 'seo_title', IndexFieldType: 'text' } ]
+==> SUCCESS
+[9/44] Define index field [ { IndexFieldName: 'seo_description', IndexFieldType: 'text' } ]
+==> SUCCESS
+[10/44] Define index field [ { IndexFieldName: 'type', IndexFieldType: 'text' } ]
+==> SUCCESS
+[11/44] Define index field [ { IndexFieldName: 'tags', IndexFieldType: 'text' } ]
+==> SUCCESS
+[12/44] Define index field [ { IndexFieldName: 'created_at', IndexFieldType: 'date' } ]
+==> SUCCESS
+[13/44] Define index field [ { IndexFieldName: 'updated_at', IndexFieldType: 'date' } ]
+==> SUCCESS
+[14/44] Define index field [ { IndexFieldName: 'options_name', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[15/44] Define index field [ { IndexFieldName: 'options_key', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[16/44] Define index field [ { IndexFieldName: 'options_values', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[17/44] Define index field [ { IndexFieldName: 'weight_unit', IndexFieldType: 'text' } ]
+==> SUCCESS
+[18/44] Define index field [ { IndexFieldName: 'weight_value', IndexFieldType: 'double' } ]
+==> SUCCESS
+[19/44] Define index field [ { IndexFieldName: 'variant_id', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[20/44] Define index field [ { IndexFieldName: 'variant_name', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[21/44] Define index field [ { IndexFieldName: 'variant_sku', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[22/44] Define index field [ { IndexFieldName: 'variant_channel', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[23/44] Define index field [ { IndexFieldName: 'variant_weight_unit', IndexFieldType: 'text' } ]
+==> SUCCESS
+[24/44] Define index field [
+  { IndexFieldName: 'variant_weight_value', IndexFieldType: 'double' }
+]
+==> SUCCESS
+[25/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_currency',
+    IndexFieldType: 'text'
+  }
+]
+==> SUCCESS
+[26/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_gross_currency',
+    IndexFieldType: 'text'
+  }
+]
+==> SUCCESS
+[27/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_gross_amount',
+    IndexFieldType: 'double-array'
+  }
+]
+==> SUCCESS
+[28/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_net_currency',
+    IndexFieldType: 'text'
+  }
+]
+==> SUCCESS
+[29/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_net_amount',
+    IndexFieldType: 'double-array'
+  }
+]
+==> SUCCESS
+[30/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_tax_currency',
+    IndexFieldType: 'text'
+  }
+]
+==> SUCCESS
+[31/44] Define index field [
+  {
+    IndexFieldName: 'variant_pricing_price_tax_amount',
+    IndexFieldType: 'double-array'
+  }
+]
+==> SUCCESS
+[32/44] Define index field [ { IndexFieldName: 'category_id', IndexFieldType: 'text' } ]
+==> SUCCESS
+[33/44] Define index field [ { IndexFieldName: 'category_name', IndexFieldType: 'text' } ]
+==> SUCCESS
+[34/44] Define index field [ { IndexFieldName: 'category_seo_title', IndexFieldType: 'text' } ]
+==> SUCCESS
+[35/44] Define index field [
+  {
+    IndexFieldName: 'category_seo_description',
+    IndexFieldType: 'text'
+  }
+]
+==> SUCCESS
+[36/44] Define index field [ { IndexFieldName: 'category_description', IndexFieldType: 'text' } ]
+==> SUCCESS
+[37/44] Define index field [ { IndexFieldName: 'category_slug', IndexFieldType: 'text' } ]
+==> SUCCESS
+[38/44] Define index field [ { IndexFieldName: 'collection_id', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[39/44] Define index field [ { IndexFieldName: 'collection_name', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[40/44] Define index field [
+  {
+    IndexFieldName: 'collection_seo_title',
+    IndexFieldType: 'text-array'
+  }
+]
+==> SUCCESS
+[41/44] Define index field [
+  {
+    IndexFieldName: 'collection_seo_description',
+    IndexFieldType: 'text-array'
+  }
+]
+==> SUCCESS
+[42/44] Define index field [
+  {
+    IndexFieldName: 'collection_description',
+    IndexFieldType: 'text-array'
+  }
+]
+==> SUCCESS
+[43/44] Define index field [ { IndexFieldName: 'collection_slug', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+[44/44] Define index field [ { IndexFieldName: 'sources', IndexFieldType: 'text-array' } ]
+==> SUCCESS
+success [
+  { IndexFieldName: 'id', IndexFieldType: 'text' },
+  { IndexFieldName: 'name', IndexFieldType: 'text' },
+  { IndexFieldName: 'slug', IndexFieldType: 'text' },
+  { IndexFieldName: 'channel', IndexFieldType: 'text' },
+  { IndexFieldName: 'description', IndexFieldType: 'text' },
+  { IndexFieldName: 'description_html', IndexFieldType: 'text' },
+  { IndexFieldName: 'description_json', IndexFieldType: 'text' },
+  { IndexFieldName: 'seo_title', IndexFieldType: 'text' },
+  { IndexFieldName: 'seo_description', IndexFieldType: 'text' },
+  { IndexFieldName: 'type', IndexFieldType: 'text' },
+  { IndexFieldName: 'tags', IndexFieldType: 'text' },
+  { IndexFieldName: 'created_at', IndexFieldType: 'date' },
+  { IndexFieldName: 'updated_at', IndexFieldType: 'date' },
+  { IndexFieldName: 'options_name', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'options_key', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'options_values', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'weight_unit', IndexFieldType: 'text' },
+  { IndexFieldName: 'weight_value', IndexFieldType: 'double' },
+  { IndexFieldName: 'variant_id', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'variant_name', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'variant_sku', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'variant_channel', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'variant_weight_unit', IndexFieldType: 'text' },
+  { IndexFieldName: 'variant_weight_value', IndexFieldType: 'double' },
+  {
+    IndexFieldName: 'variant_pricing_price_currency',
+    IndexFieldType: 'text'
+  },
+  {
+    IndexFieldName: 'variant_pricing_price_gross_currency',
+    IndexFieldType: 'text'
+  },
+  {
+    IndexFieldName: 'variant_pricing_price_gross_amount',
+    IndexFieldType: 'double-array'
+  },
+  {
+    IndexFieldName: 'variant_pricing_price_net_currency',
+    IndexFieldType: 'text'
+  },
+  {
+    IndexFieldName: 'variant_pricing_price_net_amount',
+    IndexFieldType: 'double-array'
+  },
+  {
+    IndexFieldName: 'variant_pricing_price_tax_currency',
+    IndexFieldType: 'text'
+  },
+  {
+    IndexFieldName: 'variant_pricing_price_tax_amount',
+    IndexFieldType: 'double-array'
+  },
+  { IndexFieldName: 'category_id', IndexFieldType: 'text' },
+  { IndexFieldName: 'category_name', IndexFieldType: 'text' },
+  { IndexFieldName: 'category_seo_title', IndexFieldType: 'text' },
+  {
+    IndexFieldName: 'category_seo_description',
+    IndexFieldType: 'text'
+  },
+  { IndexFieldName: 'category_description', IndexFieldType: 'text' },
+  { IndexFieldName: 'category_slug', IndexFieldType: 'text' },
+  { IndexFieldName: 'collection_id', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'collection_name', IndexFieldType: 'text-array' },
+  {
+    IndexFieldName: 'collection_seo_title',
+    IndexFieldType: 'text-array'
+  },
+  {
+    IndexFieldName: 'collection_seo_description',
+    IndexFieldType: 'text-array'
+  },
+  {
+    IndexFieldName: 'collection_description',
+    IndexFieldType: 'text-array'
+  },
+  { IndexFieldName: 'collection_slug', IndexFieldType: 'text-array' },
+  { IndexFieldName: 'sources', IndexFieldType: 'text-array' }
+]
+failure []
+error []
+==> COMPLETED
+

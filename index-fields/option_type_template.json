@@ -1,0 +1,39 @@
+{
+  "IntOptions": {
+    "FacetEnabled": true,
+    "SearchEnabled": true,
+    "ReturnEnabled": true,
+    "SortEnabled": true
+  },
+  "DoubleOptions": {
+    "FacetEnabled": true,
+    "SearchEnabled": true,
+    "ReturnEnabled": true,
+    "SortEnabled": true
+  },
+  "TextOptions": {
+    "ReturnEnabled": true,
+    "SortEnabled": true,
+    "HighlightEnabled": true
+  },
+  "DateOptions": {
+    "FacetEnabled": true,
+    "SearchEnabled": true,
+    "ReturnEnabled": true,
+    "SortEnabled": true
+  },
+  "IntArrayOptions": {
+    "FacetEnabled": true,
+    "SearchEnabled": true,
+    "ReturnEnabled": true
+  },
+  "DoubleArrayOptions": {
+    "FacetEnabled": true,
+    "SearchEnabled": true,
+    "ReturnEnabled": true
+  },
+  "TextArrayOptions": {
+    "ReturnEnabled": true,
+    "HighlightEnabled": true
+  }
+}

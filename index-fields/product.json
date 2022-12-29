@@ -1,0 +1,385 @@
+[
+  {
+    "IndexFieldName": "id",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "name",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "slug",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "channel",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "description",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "description_html",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "description_json",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "seo_title",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "seo_description",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "type",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "tags",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "created_at",
+    "IndexFieldType": "date",
+    "DateOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true,
+      "SortEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "updated_at",
+    "IndexFieldType": "date",
+    "DateOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true,
+      "SortEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "options_name",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "options_key",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "options_values",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "weight_unit",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "weight_value",
+    "IndexFieldType": "double"
+  },
+  {
+    "IndexFieldName": "variant_id",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_name",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_sku",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_channel",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_weight_unit",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_weight_value",
+    "IndexFieldType": "double-array",
+    "DoubleArrayOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_currency",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_gross_currency",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_gross_amount",
+    "IndexFieldType": "double-array",
+    "DoubleArrayOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_net_currency",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_net_amount",
+    "IndexFieldType": "double-array",
+    "DoubleArrayOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_tax_currency",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "variant_pricing_price_tax_amount",
+    "IndexFieldType": "double-array",
+    "DoubleArrayOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "category_id",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "category_name",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "category_seo_title",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "category_seo_description",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "category_description",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "category_slug",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "collection_id",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "collection_name",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "collection_seo_title",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "collection_seo_description",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "collection_description",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "collection_slug",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "sources",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "site_id",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  }
+]

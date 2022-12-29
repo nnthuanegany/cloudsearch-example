@@ -1,0 +1,2 @@
+node commands/upload_collection_documents.js
+{ status: 'success', adds: 6, deletes: 0 }

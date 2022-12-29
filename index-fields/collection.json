@@ -1,0 +1,119 @@
+[
+  {
+    "IndexFieldName": "id",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "seo_title",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "seo_description",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "name",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "slug",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "description",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "description_html",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "description_json",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "channel",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "sources",
+    "IndexFieldType": "text-array",
+    "TextArrayOptions": {
+      "ReturnEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "site_id",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "products_count",
+    "IndexFieldType": "text",
+    "TextOptions": {
+      "ReturnEnabled": true,
+      "SortEnabled": true,
+      "HighlightEnabled": true
+    }
+  },
+  {
+    "IndexFieldName": "updated_at",
+    "IndexFieldType": "date",
+    "DateOptions": {
+      "FacetEnabled": true,
+      "SearchEnabled": true,
+      "ReturnEnabled": true,
+      "SortEnabled": true
+    }
+  }
+]

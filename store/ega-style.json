@@ -1,0 +1,13 @@
+{
+  "domain": "ega-style.7ux.com",
+  "name": "egastyle",
+  "siteId": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+  "collectionUrls": [
+    "https://ega-style.myharavan.com/collections/dam.json",
+    "https://ega-style.myharavan.com/collections/vest-blazer.json",
+    "https://ega-style.myharavan.com/collections/do-the-thao.json",
+    "https://ega-style.myharavan.com/collections/do-boi.json",
+    "https://ega-style.myharavan.com/collections/do-ngu.json",
+    "https://ega-style.myharavan.com/collections/ao-so-mi.json"
+  ]
+}

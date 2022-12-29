@@ -1,6 +1,6 @@
-const client = require('./client')
+const cloudsearchdomain = require('./cloudsearchdomain')
 async function search(params) {
-  const result = await client.search(params).promise()
+  const result = await cloudsearchdomain.search(params).promise()
   console.log(JSON.stringify(result.hits, null, 4))
 }
 
