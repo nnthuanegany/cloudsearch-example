@@ -22,8 +22,6 @@ const { awaitWithPromise, ObjectCodes } = require('./util')
 
 async function initialize({ store, productIndexFields, collectionIndexFields }) {
   await createDomainSearchForStore({ store, collectionIndexFields, productIndexFields })
-  // await uploadDocuments({ client: collectionDomainSearch.client, documents: collectionDocuments })
-  // await uploadDocuments({ client: productDomainSearch.client, documents: productDocuments })
 }
 
 async function createDomainSearchForStore({ store, collectionIndexFields, productIndexFields }) {
