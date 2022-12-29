@@ -1,4 +1,4 @@
-const documents = require('../../data/product-documents-2022-12-29T07:42:08.505Z.json')
+const documents = require('../../data/product-documents-2022-12-29T09:00:05.438Z.json')
 const { createClient, uploadDocuments } = require('../../client')
 
 // The endpoint you will store during initialization domain search
