@@ -1,0 +1,128 @@
+[
+  {
+    "type": "add",
+    "id": "4741c81f-f52b-4a8d-b2a1-3e047e24c1f2",
+    "fields": {
+      "id": "7eccd8a5-5b43-40c3-9251-d63fbe9d675d",
+      "seo_title": "Đầm",
+      "seo_description": "Đầm",
+      "name": "Đầm",
+      "slug": "dam",
+      "description": "",
+      "description_html": "",
+      "description_json": "",
+      "channel": "vn",
+      "sources": [
+        "1003139750"
+      ],
+      "site_id": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+      "products_count": 13,
+      "updated_at": "2022-09-29T11:14:11.000Z"
+    }
+  },
+  {
+    "type": "add",
+    "id": "61eefa01-ffc6-4d64-9d13-4ea2324a2514",
+    "fields": {
+      "id": "da5c74f3-4040-4f3e-89ad-36bb279e9744",
+      "seo_title": "Vest - Blazer",
+      "seo_description": "Vest - Blazer",
+      "name": "Vest - Blazer",
+      "slug": "vest-blazer",
+      "description": "",
+      "description_html": "",
+      "description_json": "",
+      "channel": "vn",
+      "sources": [
+        "1003139744"
+      ],
+      "site_id": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+      "products_count": 5,
+      "updated_at": "2022-06-11T19:37:55.000Z"
+    }
+  },
+  {
+    "type": "add",
+    "id": "1f9c04eb-8904-44b0-bc32-70b36c43c20a",
+    "fields": {
+      "id": "695d21de-4c68-4619-ab66-21cfaeef5b42",
+      "seo_title": "Đồ thể thao",
+      "seo_description": "Đồ thể thao",
+      "name": "Đồ thể thao",
+      "slug": "do-the-thao",
+      "description": "",
+      "description_html": "",
+      "description_json": "",
+      "channel": "vn",
+      "sources": [
+        "1003139747"
+      ],
+      "site_id": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+      "products_count": 10,
+      "updated_at": "2022-06-28T11:13:26.000Z"
+    }
+  },
+  {
+    "type": "add",
+    "id": "769d3c89-462d-42d4-aa08-16a8ff1e55b6",
+    "fields": {
+      "id": "4d3da652-542b-4511-bc56-07b976919f50",
+      "seo_title": "Đồ bơi",
+      "seo_description": "Đồ bơi",
+      "name": "Đồ bơi",
+      "slug": "do-boi",
+      "description": "",
+      "description_html": "",
+      "description_json": "",
+      "channel": "vn",
+      "sources": [
+        "1003139746"
+      ],
+      "site_id": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+      "products_count": 10,
+      "updated_at": "2022-06-10T07:52:46.000Z"
+    }
+  },
+  {
+    "type": "add",
+    "id": "b38671b6-bf55-4e3a-8cc2-d7bc651f6294",
+    "fields": {
+      "id": "5475996c-b3e4-40b5-ace7-4ecce3d56a82",
+      "seo_title": "Đồ ngủ",
+      "seo_description": "Đồ ngủ",
+      "name": "Đồ ngủ",
+      "slug": "do-ngu",
+      "description": "",
+      "description_html": "",
+      "description_json": "",
+      "channel": "vn",
+      "sources": [
+        "1003139743"
+      ],
+      "site_id": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+      "products_count": 5,
+      "updated_at": "2022-06-09T13:09:25.000Z"
+    }
+  },
+  {
+    "type": "add",
+    "id": "fbf490c3-e977-4799-83c9-b45a4ae2b6e5",
+    "fields": {
+      "id": "3e02764a-7853-4602-b647-c9c39eedee12",
+      "seo_title": "Áo sơ mi",
+      "seo_description": "Áo sơ mi",
+      "name": "Áo sơ mi",
+      "slug": "ao-so-mi",
+      "description": "",
+      "description_html": "",
+      "description_json": "",
+      "channel": "vn",
+      "sources": [
+        "1003139748"
+      ],
+      "site_id": "d6dc43f1-17ab-4f26-b8ab-0b0024b42bc8",
+      "products_count": 5,
+      "updated_at": "2022-06-11T19:39:11.000Z"
+    }
+  }
+]
