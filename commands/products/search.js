@@ -123,7 +123,7 @@ async function searchProductsOfCollectionAndFilterColor() {
 async function searchProductsOfCollectionAndFilterRangePrice() {
   console.log('Search products of a collection and filter range price')
   /**@type {import('aws-sdk').CloudSearchDomain.SearchRequest} */
-  const params = { query: `(and (phrase field=collection_slug 'vest-blazer') (range field=min_price [2000000,3000000]))`, sort: 'min_price desc', queryParser: 'structured' }
+  const params = { query: `(and (phrase field=collection_slug 'vest-blazer') (or (range field=min_price [2000000,3000000]) (range field=max_price [2000000,3000000])))`, sort: 'min_price desc', queryParser: 'structured' }
   console.log('Params: ', params)
   const result = await search({ client, params })
   console.log('==> Times: %d ms', result.status.timems)
