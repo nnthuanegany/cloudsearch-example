@@ -28,6 +28,22 @@ module.exports = {
 }
 ```
 
+### Hướng dẫn chạy lệnh search
+
+Hiện tại mọi thứ đã được setup nên chỉ cần chạy lệnh seach, các phần khác sẽ được cập nhật sau nếu cần
+
+```bash
+node commands/products/search.js
+```
+
+Hoặc
+
+```bash
+node commands/collections/search.js
+```
+
+Có thể vào từng file search.js để điều chỉnh.
+
 ### Tài liệu tham khảo
 
 | Link                                                                                                                                           | Mô tả |
